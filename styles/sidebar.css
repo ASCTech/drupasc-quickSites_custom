@@ -1,0 +1,128 @@
+#sidebar-right-filler, #sidebar-right-filler > div {
+	position: relative;
+	width: 100%;
+	overflow: visible;
+}
+
+#sidebar-right-filler > div {
+	right: 670px;
+}
+
+#sidebar-right-filler {
+	right: -670px;
+	background-color: #D8CFBC;
+}
+
+#sidebar-right {
+	width: 280px;
+	margin-top: -43px;
+	float: right;
+	padding: 25px 0;
+	z-index: 1;
+	border-top: 43px solid #56534B;
+	color: #333;
+}
+
+#sidebar-right a {
+	color: #333;
+}
+
+#sidebar-right .block-edit-link a {
+	color: #333;
+}
+
+#sidebar-right div.block-menu {
+	padding: 0;
+	margin-bottom: 30px;
+}
+
+#sidebar-left ul.menu,
+#sidebar-right ul.menu {
+	list-style: none;
+	list-style-image: none;
+}
+#sidebar-right ul.menu {
+	padding: 0;
+	width: 100%;
+}
+
+#sidebar-left ul.menu li,
+#sidebar-right ul.menu li {
+	list-style: none;
+	list-style-image: none;
+}
+#sidebar-right ul.menu li {
+	line-height: 1.4em;
+	padding: 6px 0 9px;
+	margin: 0 15px;
+	background: url("../images/menu-separator.png") repeat-x left bottom;
+}
+
+#sidebar-right ul.menu li ul li {
+	margin: 0;
+}
+
+#sidebar-right ul.menu li.last,
+#sidebar-right ul.menu li ul li {
+	background-image: none;
+	padding: 6px 0 0;
+}
+
+#sidebar-right ul.menu li ul {
+	width: auto;
+}
+
+#sidebar-right ul.menu li a.active {
+	color: #333;
+	background-color: #E0DCD5;
+}
+
+#sidebar-right ul.menu li a {
+	font-size: 92.3%;
+	padding-left: 15px;
+	margin-left: -15px;
+	color: #333;
+	display: block;
+}
+
+#sidebar-right ul.menu li ul li a {
+	padding-left: 40px;
+}
+
+#sidebar-right ul.menu li ul li ul li a {
+	padding-left: 65px;
+}
+
+#sidebar-right .padded {
+	padding: 0 20px;
+}
+
+#sidebar-right .white {
+	color: #fff;
+}
+
+#sidebar-right h3 {
+  color: #333;
+  font-size: 1.5em;
+  line-height: 1;
+  margin-bottom: 1em;
+  padding-left: 10px;
+}
+
+#sidebar-right .block .content p {
+	color: #333;
+	padding: 10px;
+}
+#sidebar-right .block .content h1, #sidebar-right .block .content h2, #sidebar-right .block .content h3, #sidebar-right .block .content h4 {
+	color: #333;
+	margin-left: 5px;
+	background: url("../images/menu-separator.png") repeat-x scroll left bottom transparent;
+}
+
+#sidebar-right .block .content p a:link, #sidebar-right .block .content p a:visited {
+  color: #ccc;
+}
+#sidebar-right .block .content p a:hover, #sidebar-right .block .content p a:active {
+  color: #ccc;
+  text-decoration: underline;
+}

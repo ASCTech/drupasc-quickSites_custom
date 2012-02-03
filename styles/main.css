@@ -1,0 +1,128 @@
+body {
+	font-size: 13px;
+	background: #ffffff;
+	font-family: Arial,Helvetica,"Lucida Grande",verdana,sans-serif;
+}
+
+a, a:hover {
+	color: #990000;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a[href$='.pdf'] { padding-left: 15px; background: transparent url(../images/page_white_acrobat.png) center left no-repeat; }
+a[href$='.doc'] { padding-left: 15px; background: transparent url(../images/page_white_word.png) center left no-repeat; }
+a[href$='.xls'] { padding-left: 15px; background: transparent url(../images/page_white_excel.png) center left no-repeat; }
+a[href$='.ppt'] { padding-left: 15px; background: transparent url(../images/page_white_powerpoint.png) center left no-repeat; }
+
+p {
+	color: #222;
+}
+
+h2 {
+	font-size: 120%;
+	font-weight: bold;
+	color: #990000;
+}
+
+h1 {
+	font-size: 200%;
+	font-weight: normal;
+	color: #1E1918;
+}
+
+#title {
+	font-size: 230.8%;
+	margin: 25px 0 1em;
+}
+
+td, th {
+	padding: 0 5px;
+}
+
+.container {
+	width 1005px;
+}
+
+.small {
+	font-size: 75%;
+	margin-bottom: .5em;
+	line-height: 1.3em;
+}
+
+#main-content {
+	margin: 0 auto;
+	position: relative;
+}
+
+#leftcontent {
+	padding-bottom: 25px;
+}
+
+body.one-sidebar #main-content,
+body.two-sidebars #main-content {
+	overflow: hidden;
+}
+
+div.colborder {
+	border-right: 0 none;
+	margin-right: 60px;
+	padding-right: 24px;
+}
+
+div.node.page, div.node.news p {
+	font-family: Geneva, Tahoma, sans-serif;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+
+/* Rotor */
+
+body.front .rotor {
+	position: relative;
+	margin-bottom: 25px;
+}
+
+body.front .rotor-items {
+	z-index: 1;
+}
+
+body.front .rotor-tabs {
+	font-size: 1.08em;
+	color: #333;
+	bottom: 0;
+	position: absolute;
+	z-index: 2;
+}
+
+body.front .rotor-tab {
+	bottom: 0;
+	padding: 3px 10px;
+	position: absolute;
+	display: none;
+	width: 730px;
+	background: #ccc;
+	opacity: .85;
+	filter: alpha(opacity=85);
+}
+body.front .rotor-tab.selected {
+	display: block;
+}
+
+
+/* Misc. Fixes */
+
+div.views-admin-links{width: 400px;}
+div.views-admin-links ul.links{width: 400px;}
+.block-edit-link { min-width: 250px; }
+#navigation .block-edit-link li { padding: 0 2px; }
+.messages { background: #D3E2E9; padding: 0 5px; }

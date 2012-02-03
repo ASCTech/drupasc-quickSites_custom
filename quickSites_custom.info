@@ -1,0 +1,37 @@
+name = Arts and Sciences Quick Sites Custom
+description = Generic template based on the Quick Sites theme.
+core = 6.x
+engine = phptemplate
+
+scripts[] = clearsearch.js
+
+stylesheets[all][] = styles/osu-navbar-media/css/navbar.css
+stylesheets[screen, projection][] = styles/blueprint/screen.css
+stylesheets[screen, projection, all][] = styles/main.css
+stylesheets[screen][] = styles/header.css
+stylesheets[screen][] = styles/footer.css
+stylesheets[screen][] = styles/sidebar.css
+stylesheets[all][] = styles/news.css
+stylesheets[all][] = styles/events.css
+stylesheets[all][] = styles/people.css
+stylesheets[screen][] = styles/inner.css
+stylesheets[screen][] = styles/front.css
+stylesheets[all][] = styles/navbar.css
+stylesheets[print][] = styles/print.css
+
+regions[front_image] = Front Page - Image
+regions[front_text] = Front Page - Text
+regions[front_links] = Front Page - Quick Links
+regions[front_block1] =  Front Page - Small Block - Left
+regions[front_block2] =  Front Page - Small Block - Right
+regions[front_block3] =  Front Page - Large Block
+
+regions[MainNav] = Main Navigation
+regions[left] = Left Sidebar
+regions[right] = Right Sidebar
+regions[before_front_content] = Before Front Content
+regions[front_content] = Front Content
+regions[before_content] = Before Content
+regions[after_content] = After Content
+regions[footer] = Footer
+regions[footer_menu] = Footer Menu

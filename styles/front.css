@@ -1,0 +1,244 @@
+#front-header {
+	height:263px;
+	position:relative;
+	padding-top: 31px;
+	z-index: 998;
+}
+
+body.front #header-shadow {
+	top: 0;
+}
+
+#front-header > .container {
+	height:232px;
+	position:relative;
+	z-index:1;
+    background: #3d3831 url(../images/front-header.png) no-repeat scroll 470px 0;
+}
+
+#front-header-banner {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	z-index: 3;
+	overflow: visible;
+}
+
+#front-header-banner > .container {
+	position: relative;
+	overflow: visible;
+}
+
+#front-header-banner a#aslink {
+	display: block;
+	position: absolute;
+	right: -10px;
+	top: 0;
+	text-decoration: none;
+	width: 104px;
+	height: 120px;
+	background: transparent url(../images/banner.png) 0 0 no-repeat;
+}
+
+#front-header-tile {
+	position:absolute;
+	height:232px;
+	width:50%;
+	left:50%;
+	top:31px;
+	background: #3d3831 url(../images/front-header.png) -5px 0 no-repeat;
+}
+
+#front-image {
+	margin: -31px 0 25px;
+	width: 470px;
+	position: relative;
+	overflow: hidden;
+	background: transparent url(../images/front-image-b.png) no-repeat;
+}
+
+#front-image,
+#front-image div.block-block {
+	height: 583px;
+}
+
+body.layout-a #front-image,
+body.layout-a #front-image div.block-block {
+	height: 263px;
+}
+
+body.layout-a #front-image {
+	background: transparent url(../images/front-image-a.png) no-repeat;
+}
+
+#front-text, #front-links {
+	position: absolute;
+	right: 0;
+}
+
+#front-text {
+	top: 30px;
+}
+
+#front-text p {
+	font-size: 123%;
+	color: #fff;
+}
+
+#front-text p a:link, #front-text p a:visited {
+	color: #ccc;
+	text-decoration: none;
+}
+#front-text p a:hover, #front-text p a:active {
+	color: #ccc;
+	text-decoration: underline;
+}
+
+#front-links {
+	bottom: 20px;
+}
+
+#front-links ul.menu {
+	padding: 0;
+}
+
+#front-links ul.menu li {
+	margin: 0;
+	font-size: 123%;
+	white-space: nowrap;
+	list-style: none;
+	list-style-image: none;
+	line-height: 1.69em;
+	border-bottom: 1px dotted #fff;
+}
+
+#front-links ul.menu li.last {
+	border-bottom: 0 none;
+}
+
+#front-links ul.menu li a {
+	color:#ffffff;
+}
+
+#front-content {
+	float: right;
+	position: relative;
+	padding-top: 14px;
+}
+
+body.front.sidebar-left #main-content {
+	width: 750px;
+}
+
+body.layout-b #front-content,
+body.layout-c #front-content {
+	height: 295px;
+}
+
+body.no-front-header #front-header,
+body.no-front-header #front-header > .container,
+body.no-front-header #front-image,
+body.no-front-header #front-image div.block-block {
+	height: 0;
+	margin: 0;
+	padding: 0;
+}
+
+body.no-front-header #front-header-tile {
+	display: none;
+}
+
+
+/* Page Content */
+
+body.layout-b #front-content .view-front-page .views-field-body,
+body.layout-c #front-content .view-front-page .views-field-body {
+	height: 280px;
+	overflow: hidden;
+}
+
+body.layout-a #front-content .view-front-page .views-field-body {
+	overflow: hidden;
+}
+
+#front-content .view-id-front_page .views-field-nothing {
+	background: url(../images/pagefade.png) repeat-x left bottom;
+	height: 30px;
+	width: 100%;
+	position: absolute;
+	bottom: 15px;
+}
+
+#front-content .view-id-front_page .views-field-view-node a,
+#front-content .view-id-front_page .views-field-edit-node a {
+	position: absolute;
+	bottom: 0;
+	line-height: 1.07em;
+	font-size: 107.7%;
+}
+
+#front-content .view-id-front_page .views-field-edit-node a {
+	right: 0;
+}
+
+
+/* Features */
+
+body.layout-b #features {
+	margin: 25px 0;
+	clear: both;
+}
+
+.feature {
+	position: relative;
+}
+
+.feature .view-header {
+	float: none;
+	font-size: 1px;
+	height: 37px;
+	overflow: hidden;
+	background-position: right bottom;
+	background-color: #796F61;
+	background-repeat: no-repeat;
+}
+
+.feature .view-header a {
+	display: block;
+	height: 37px;
+	text-indent: -1000px;
+}
+
+.feature .view-content {
+	float: none;
+	border-right: 1px solid #796F61;
+	height: 230px;
+	padding: 20px 10px 0;
+}
+
+.feature .block-views > .content {
+	position:relative;
+	margin-bottom: 30px;
+}
+.feature .block-views > .content:after {
+	content: "\0020";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	overflow: hidden;
+}
+
+.feature .views-row {
+	font-size: 84.6%;
+	line-height: 1.18em;
+}
+
+
+/* Misc. Fixes */
+
+#features .block-edit-link {
+	margin-top: 0;
+}
+#front-image div.block-edit-link { margin-top: 20px; }
+body.front #message { margin: 0 0 25px; }

@@ -12,7 +12,8 @@
 }
 
 #contact img#footer_accessibility_icon {
-	margin-bottom: -7px;
+	margin-bottom: -4px;
+	margin-left: 8px;
 }
 
 .footermessage p  {
@@ -122,7 +123,6 @@
 }
 
 #footer form#search-block-form input.form-text {
-	background: transparent url(../images/searchbar.png) 0 0 no-repeat;
 	border: 0 none;
 	height: 23px;
 	font-size: 100%;

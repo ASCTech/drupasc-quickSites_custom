@@ -76,10 +76,6 @@ div.colborder {
 	padding-right: 24px;
 }
 
-div.node.page, div.node.news p {
-	font-family: Geneva, Tahoma, sans-serif;
-}
-
 table {
 	border-collapse: collapse;
 }
